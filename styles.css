@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: Times, sans-serif;
+    background: #E0FFFF;
+    color: #006400;
+}
+
+h1, h2 {
+    font-family: River, serif;
+    color: #228B22;
+}
+
+a {
+    color: #00CED1;
+}
+
+section {
+    padding: 3rem;
+}
