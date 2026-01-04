@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    font-family: Times, sans-serif;
+    font-family: Times;
     background: #E0FFFF;
     color: #006400;
 }
 h1, h2 {
-    font-family: River, serif;
+    font-family: River;
     color: #228B22;
 }
 a {
