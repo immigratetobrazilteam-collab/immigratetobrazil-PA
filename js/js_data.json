@@ -1,0 +1,113 @@
+{
+    "persona": {
+        "label": "River Amazon Explorer",
+        "tone": "Flowing, biodiverse, mysterious",
+        "visual_intensity": "high",
+        "risk_tolerance": "expressive"
+    },
+    "tokens": {
+        "colors": {
+            "primary": "#2b6cb0",
+            "secondary": "#2a4365",
+            "accent": "#4299e1",
+            "bg": "#ebf8ff",
+            "text": "#2c5282",
+            "hover": "#2c5282",
+            "active": "#2a4365",
+            "focus": "#2b6cb0",
+            "success": "#38a169",
+            "error": "#e53e3e",
+            "warning": "#d69e2e",
+            "info": "#3182ce",
+            "neutral": "#bee3f8",
+            "link": "#2a4365",
+            "border": "#63b3ed",
+            "surface": "#bee3f8",
+            "gradient_bg": "linear-gradient(to bottom right, #ebf8ff, #bee3f8)"
+        },
+        "typography": {
+            "primary_font": "'Josefin Sans', system-ui, sans-serif",
+            "base_size": "16px",
+            "line_height": "1.65",
+            "heading_sizes": [
+                "3.0rem",
+                "2.5rem",
+                "2.1rem",
+                "1.8rem",
+                "1.5rem",
+                "1.3rem"
+            ]
+        },
+        "spacing": {
+            "xs": "5px",
+            "s": "10px",
+            "m": "20px",
+            "l": "35px",
+            "xl": "50px",
+            "xxl": "75px"
+        },
+        "borders": {
+            "radius": "7px"
+        },
+        "shadows": {
+            "low": "0 4px 8px rgba(43,108,176,0.1)",
+            "medium": "0 10px 20px rgba(43,108,176,0.15)"
+        },
+        "motion": {
+            "timing": "0.7s cubic-bezier(0.23, 1, 0.32, 1)"
+        },
+        "breakpoints": {
+            "tablet": "800px",
+            "desktop": "1100px"
+        },
+        "animations": {
+            "duration_base": 0.7,
+            "ease_default": "easeInOutQuint",
+            "intensity_mod": 1.2,
+            "risk_ease": "elastic.inOut(1, 0.75)",
+            "mobile_mod": 0.65
+        }
+    },
+    "animation_customizations": {
+        "hero": {
+            "from": {
+                "opacity": 0,
+                "y": 50
+            },
+            "to": {
+                "opacity": 1,
+                "y": 0
+            }
+        },
+        "cta": {
+            "hover": {
+                "scale": 1.05
+            },
+            "leave": {
+                "scale": 1
+            }
+        },
+        "form": {
+            "stagger": 0.1,
+            "from": {
+                "opacity": 0
+            }
+        },
+        "list": {
+            "stagger": 0.2,
+            "from": {
+                "opacity": 0,
+                "x": -50
+            }
+        },
+        "content": {
+            "from": {
+                "opacity": 0
+            },
+            "to": {
+                "opacity": 1
+            }
+        },
+        "mobile_mod": 0.8
+    }
+}
